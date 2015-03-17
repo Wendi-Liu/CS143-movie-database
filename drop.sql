@@ -1,0 +1,9 @@
+drop TABLE Movie;
+drop TABLE Actor;
+drop TABLE Director;
+drop TABLE MovieGenre;
+drop TABLE MovieDirector;
+drop TABLE MovieActor;
+drop TABLE Review;
+drop TABLE MaxPersonID;
+drop TABLE MaxMovieID;

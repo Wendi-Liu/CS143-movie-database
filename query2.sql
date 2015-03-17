@@ -1,0 +1,7 @@
+SELECT COUNT(*)
+FROM(
+SELECT A.id
+FROM Actor A,MovieActor M
+WHERE A.id=M.aid
+GROUP BY A.id
+HAVING COUNT(M.mid)>1) N;
